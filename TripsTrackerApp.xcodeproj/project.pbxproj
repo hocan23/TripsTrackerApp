@@ -7,16 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		085433FBE31946E5F6143EFC /* Pods_TripsTrackerApp_TripsTrackerAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4994280BF9B43E019A50B5DC /* Pods_TripsTrackerApp_TripsTrackerAppUITests.framework */; };
+		B4676F9E668F37C142634409 /* Pods_TripsTrackerAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03BFC37ADE83731F6E5810E9 /* Pods_TripsTrackerAppTests.framework */; };
+		B7711C7728AE17AE0037D4E3 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7711C7628AE17AE0037D4E3 /* HomeViewModelTests.swift */; };
+		B7711C7A28AE18590037D4E3 /* MapViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7711C7928AE18590037D4E3 /* MapViewModelTests.swift */; };
+		B774043628AC16EA00DE9EE5 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B774043528AC16EA00DE9EE5 /* CoreDataManager.swift */; };
+		B774043A28ACE1DA00DE9EE5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B774043928ACE1DA00DE9EE5 /* GoogleService-Info.plist */; };
 		B79199DD28ABD0760031AD35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79199DC28ABD0760031AD35 /* AppDelegate.swift */; };
 		B79199DF28ABD0760031AD35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79199DE28ABD0760031AD35 /* SceneDelegate.swift */; };
-		B79199E128ABD0760031AD35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79199E028ABD0760031AD35 /* ViewController.swift */; };
+		B79199E128ABD0760031AD35 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79199E028ABD0760031AD35 /* HomeViewController.swift */; };
 		B79199E428ABD0760031AD35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B79199E228ABD0760031AD35 /* Main.storyboard */; };
-		B79199E728ABD0760031AD35 /* TripsTrackerApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B79199E528ABD0760031AD35 /* TripsTrackerApp.xcdatamodeld */; };
+		B79199E728ABD0760031AD35 /* TripTrackSaveModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B79199E528ABD0760031AD35 /* TripTrackSaveModel.xcdatamodeld */; };
 		B79199E928ABD0780031AD35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B79199E828ABD0780031AD35 /* Assets.xcassets */; };
 		B79199EC28ABD0780031AD35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B79199EA28ABD0780031AD35 /* LaunchScreen.storyboard */; };
 		B79199F728ABD0780031AD35 /* TripsTrackerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79199F628ABD0780031AD35 /* TripsTrackerAppTests.swift */; };
 		B7919A0128ABD0780031AD35 /* TripsTrackerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7919A0028ABD0780031AD35 /* TripsTrackerAppUITests.swift */; };
 		B7919A0328ABD0780031AD35 /* TripsTrackerAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7919A0228ABD0780031AD35 /* TripsTrackerAppUITestsLaunchTests.swift */; };
+		B7919A1028ABD1110031AD35 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7919A0F28ABD1110031AD35 /* HomeViewModel.swift */; };
+		B7919A1228ABD1780031AD35 /* TripCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7919A1128ABD1780031AD35 /* TripCellViewModel.swift */; };
+		B7919A1428ABD76B0031AD35 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7919A1328ABD76B0031AD35 /* HomeTableViewCell.swift */; };
+		B7919A1928ABDEE30031AD35 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7919A1828ABDEE30031AD35 /* MapViewController.swift */; };
+		B7919A1C28ABDF500031AD35 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7919A1B28ABDF500031AD35 /* MapViewModel.swift */; };
+		EF13ED88EDC067C65F978977 /* Pods_TripsTrackerApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F2F5A35C2BA54B9ADD731F /* Pods_TripsTrackerApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +49,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00F2F5A35C2BA54B9ADD731F /* Pods_TripsTrackerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TripsTrackerApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03BFC37ADE83731F6E5810E9 /* Pods_TripsTrackerAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TripsTrackerAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4994280BF9B43E019A50B5DC /* Pods_TripsTrackerApp_TripsTrackerAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TripsTrackerApp_TripsTrackerAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5273A10876558FF8A048A532 /* Pods-TripsTrackerAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripsTrackerAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TripsTrackerAppTests/Pods-TripsTrackerAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		565DD0D66B53F8B4B2610161 /* Pods-TripsTrackerApp-TripsTrackerAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripsTrackerApp-TripsTrackerAppUITests.release.xcconfig"; path = "Target Support Files/Pods-TripsTrackerApp-TripsTrackerAppUITests/Pods-TripsTrackerApp-TripsTrackerAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5FF50134EA51BE761B628700 /* Pods-TripsTrackerAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripsTrackerAppTests.release.xcconfig"; path = "Target Support Files/Pods-TripsTrackerAppTests/Pods-TripsTrackerAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		84170ACDE21B0125332B5999 /* Pods-TripsTrackerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripsTrackerApp.release.xcconfig"; path = "Target Support Files/Pods-TripsTrackerApp/Pods-TripsTrackerApp.release.xcconfig"; sourceTree = "<group>"; };
+		87C0DCEE08D4CF34DC4CAB2B /* Pods-TripsTrackerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripsTrackerApp.debug.xcconfig"; path = "Target Support Files/Pods-TripsTrackerApp/Pods-TripsTrackerApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B7711C7628AE17AE0037D4E3 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		B7711C7928AE18590037D4E3 /* MapViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModelTests.swift; sourceTree = "<group>"; };
+		B774043528AC16EA00DE9EE5 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		B774043828ACE12900DE9EE5 /* TripsTrackerApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TripsTrackerApp.entitlements; sourceTree = "<group>"; };
+		B774043928ACE1DA00DE9EE5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B79199D928ABD0760031AD35 /* TripsTrackerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripsTrackerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B79199DC28ABD0760031AD35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B79199DE28ABD0760031AD35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B79199E028ABD0760031AD35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B79199E028ABD0760031AD35 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B79199E328ABD0760031AD35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B79199E628ABD0760031AD35 /* TripsTrackerApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TripsTrackerApp.xcdatamodel; sourceTree = "<group>"; };
 		B79199E828ABD0780031AD35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +76,12 @@
 		B79199FC28ABD0780031AD35 /* TripsTrackerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripsTrackerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7919A0028ABD0780031AD35 /* TripsTrackerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsTrackerAppUITests.swift; sourceTree = "<group>"; };
 		B7919A0228ABD0780031AD35 /* TripsTrackerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsTrackerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7919A0F28ABD1110031AD35 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		B7919A1128ABD1780031AD35 /* TripCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCellViewModel.swift; sourceTree = "<group>"; };
+		B7919A1328ABD76B0031AD35 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		B7919A1828ABDEE30031AD35 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		B7919A1B28ABDF500031AD35 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		FF9839FFC23DAAC27C2C6807 /* Pods-TripsTrackerApp-TripsTrackerAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripsTrackerApp-TripsTrackerAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-TripsTrackerApp-TripsTrackerAppUITests/Pods-TripsTrackerApp-TripsTrackerAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF13ED88EDC067C65F978977 /* Pods_TripsTrackerApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4676F9E668F37C142634409 /* Pods_TripsTrackerAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +105,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				085433FBE31946E5F6143EFC /* Pods_TripsTrackerApp_TripsTrackerAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07971F88A517E99AFC26092E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00F2F5A35C2BA54B9ADD731F /* Pods_TripsTrackerApp.framework */,
+				4994280BF9B43E019A50B5DC /* Pods_TripsTrackerApp_TripsTrackerAppUITests.framework */,
+				03BFC37ADE83731F6E5810E9 /* Pods_TripsTrackerAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E9B733873212004918C4ABE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87C0DCEE08D4CF34DC4CAB2B /* Pods-TripsTrackerApp.debug.xcconfig */,
+				84170ACDE21B0125332B5999 /* Pods-TripsTrackerApp.release.xcconfig */,
+				FF9839FFC23DAAC27C2C6807 /* Pods-TripsTrackerApp-TripsTrackerAppUITests.debug.xcconfig */,
+				565DD0D66B53F8B4B2610161 /* Pods-TripsTrackerApp-TripsTrackerAppUITests.release.xcconfig */,
+				5273A10876558FF8A048A532 /* Pods-TripsTrackerAppTests.debug.xcconfig */,
+				5FF50134EA51BE761B628700 /* Pods-TripsTrackerAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B7711C7528AE17830037D4E3 /* HomeVCTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7711C7628AE17AE0037D4E3 /* HomeViewModelTests.swift */,
+			);
+			name = HomeVCTests;
+			sourceTree = "<group>";
+		};
+		B7711C7828AE18360037D4E3 /* MapVCTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7711C7928AE18590037D4E3 /* MapViewModelTests.swift */,
+			);
+			name = MapVCTests;
+			sourceTree = "<group>";
+		};
+		B774043728ACC74800DE9EE5 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B79199E528ABD0760031AD35 /* TripTrackSaveModel.xcdatamodeld */,
+				B774043528AC16EA00DE9EE5 /* CoreDataManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		B79199D028ABD0760031AD35 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +167,8 @@
 				B79199F528ABD0780031AD35 /* TripsTrackerAppTests */,
 				B79199FF28ABD0780031AD35 /* TripsTrackerAppUITests */,
 				B79199DA28ABD0760031AD35 /* Products */,
+				6E9B733873212004918C4ABE /* Pods */,
+				07971F88A517E99AFC26092E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +185,17 @@
 		B79199DB28ABD0760031AD35 /* TripsTrackerApp */ = {
 			isa = PBXGroup;
 			children = (
+				B774043828ACE12900DE9EE5 /* TripsTrackerApp.entitlements */,
 				B79199DC28ABD0760031AD35 /* AppDelegate.swift */,
+				B774043928ACE1DA00DE9EE5 /* GoogleService-Info.plist */,
 				B79199DE28ABD0760031AD35 /* SceneDelegate.swift */,
-				B79199E028ABD0760031AD35 /* ViewController.swift */,
+				B774043728ACC74800DE9EE5 /* CoreData */,
+				B7919A1A28ABDEF10031AD35 /* MapVc */,
+				B7919A1728ABDEA10031AD35 /* HomeVC */,
 				B79199E228ABD0760031AD35 /* Main.storyboard */,
 				B79199E828ABD0780031AD35 /* Assets.xcassets */,
 				B79199EA28ABD0780031AD35 /* LaunchScreen.storyboard */,
 				B79199ED28ABD0780031AD35 /* Info.plist */,
-				B79199E528ABD0760031AD35 /* TripsTrackerApp.xcdatamodeld */,
 			);
 			path = TripsTrackerApp;
 			sourceTree = "<group>";
@@ -117,6 +204,8 @@
 			isa = PBXGroup;
 			children = (
 				B79199F628ABD0780031AD35 /* TripsTrackerAppTests.swift */,
+				B7711C7828AE18360037D4E3 /* MapVCTests */,
+				B7711C7528AE17830037D4E3 /* HomeVCTests */,
 			);
 			path = TripsTrackerAppTests;
 			sourceTree = "<group>";
@@ -130,6 +219,26 @@
 			path = TripsTrackerAppUITests;
 			sourceTree = "<group>";
 		};
+		B7919A1728ABDEA10031AD35 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				B7919A1128ABD1780031AD35 /* TripCellViewModel.swift */,
+				B7919A1328ABD76B0031AD35 /* HomeTableViewCell.swift */,
+				B7919A0F28ABD1110031AD35 /* HomeViewModel.swift */,
+				B79199E028ABD0760031AD35 /* HomeViewController.swift */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		B7919A1A28ABDEF10031AD35 /* MapVc */ = {
+			isa = PBXGroup;
+			children = (
+				B7919A1828ABDEE30031AD35 /* MapViewController.swift */,
+				B7919A1B28ABDF500031AD35 /* MapViewModel.swift */,
+			);
+			path = MapVc;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +246,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7919A0628ABD0780031AD35 /* Build configuration list for PBXNativeTarget "TripsTrackerApp" */;
 			buildPhases = (
+				9D9BBBF43B4DA0537FE33457 /* [CP] Check Pods Manifest.lock */,
 				B79199D528ABD0760031AD35 /* Sources */,
 				B79199D628ABD0760031AD35 /* Frameworks */,
 				B79199D728ABD0760031AD35 /* Resources */,
+				F29113D9531928BD50B5907A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +265,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7919A0928ABD0780031AD35 /* Build configuration list for PBXNativeTarget "TripsTrackerAppTests" */;
 			buildPhases = (
+				ABD99D0B4E6178140A19D191 /* [CP] Check Pods Manifest.lock */,
 				B79199EE28ABD0780031AD35 /* Sources */,
 				B79199EF28ABD0780031AD35 /* Frameworks */,
 				B79199F028ABD0780031AD35 /* Resources */,
@@ -172,9 +284,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7919A0C28ABD0780031AD35 /* Build configuration list for PBXNativeTarget "TripsTrackerAppUITests" */;
 			buildPhases = (
+				FFE05EDB8D862F2C81709E0E /* [CP] Check Pods Manifest.lock */,
 				B79199F828ABD0780031AD35 /* Sources */,
 				B79199F928ABD0780031AD35 /* Frameworks */,
 				B79199FA28ABD0780031AD35 /* Resources */,
+				D236E06FC613621B627602D7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B79199EC28ABD0780031AD35 /* LaunchScreen.storyboard in Resources */,
+				B774043A28ACE1DA00DE9EE5 /* GoogleService-Info.plist in Resources */,
 				B79199E928ABD0780031AD35 /* Assets.xcassets in Resources */,
 				B79199E428ABD0760031AD35 /* Main.storyboard in Resources */,
 			);
@@ -256,15 +371,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9D9BBBF43B4DA0537FE33457 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TripsTrackerApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABD99D0B4E6178140A19D191 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TripsTrackerAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D236E06FC613621B627602D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TripsTrackerApp-TripsTrackerAppUITests/Pods-TripsTrackerApp-TripsTrackerAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TripsTrackerApp-TripsTrackerAppUITests/Pods-TripsTrackerApp-TripsTrackerAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TripsTrackerApp-TripsTrackerAppUITests/Pods-TripsTrackerApp-TripsTrackerAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F29113D9531928BD50B5907A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TripsTrackerApp/Pods-TripsTrackerApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TripsTrackerApp/Pods-TripsTrackerApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TripsTrackerApp/Pods-TripsTrackerApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFE05EDB8D862F2C81709E0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TripsTrackerApp-TripsTrackerAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B79199D528ABD0760031AD35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B79199E128ABD0760031AD35 /* ViewController.swift in Sources */,
+				B79199E128ABD0760031AD35 /* HomeViewController.swift in Sources */,
+				B7919A1228ABD1780031AD35 /* TripCellViewModel.swift in Sources */,
+				B7919A1428ABD76B0031AD35 /* HomeTableViewCell.swift in Sources */,
 				B79199DD28ABD0760031AD35 /* AppDelegate.swift in Sources */,
 				B79199DF28ABD0760031AD35 /* SceneDelegate.swift in Sources */,
-				B79199E728ABD0760031AD35 /* TripsTrackerApp.xcdatamodeld in Sources */,
+				B7919A1028ABD1110031AD35 /* HomeViewModel.swift in Sources */,
+				B79199E728ABD0760031AD35 /* TripTrackSaveModel.xcdatamodeld in Sources */,
+				B7919A1928ABDEE30031AD35 /* MapViewController.swift in Sources */,
+				B774043628AC16EA00DE9EE5 /* CoreDataManager.swift in Sources */,
+				B7919A1C28ABDF500031AD35 /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +497,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B79199F728ABD0780031AD35 /* TripsTrackerAppTests.swift in Sources */,
+				B7711C7A28AE18590037D4E3 /* MapViewModelTests.swift in Sources */,
+				B7711C7728AE17AE0037D4E3 /* HomeViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,14 +662,18 @@
 		};
 		B7919A0728ABD0780031AD35 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87C0DCEE08D4CF34DC4CAB2B /* Pods-TripsTrackerApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TripsTrackerApp/TripsTrackerApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PCV3VLUN64;
+				DEVELOPMENT_TEAM = CDLRAYVNZ9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TripsTrackerApp/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = kfdslfmlksdfmds;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -454,8 +684,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dsa.TripsTrackerApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TripsTrackerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -464,14 +695,18 @@
 		};
 		B7919A0828ABD0780031AD35 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84170ACDE21B0125332B5999 /* Pods-TripsTrackerApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TripsTrackerApp/TripsTrackerApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PCV3VLUN64;
+				DEVELOPMENT_TEAM = CDLRAYVNZ9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TripsTrackerApp/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = kfdslfmlksdfmds;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -482,8 +717,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dsa.TripsTrackerApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TripsTrackerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -492,6 +728,7 @@
 		};
 		B7919A0A28ABD0780031AD35 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5273A10876558FF8A048A532 /* Pods-TripsTrackerAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +749,7 @@
 		};
 		B7919A0B28ABD0780031AD35 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FF50134EA51BE761B628700 /* Pods-TripsTrackerAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +770,7 @@
 		};
 		B7919A0D28ABD0780031AD35 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF9839FFC23DAAC27C2C6807 /* Pods-TripsTrackerApp-TripsTrackerAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +789,7 @@
 		};
 		B7919A0E28ABD0780031AD35 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 565DD0D66B53F8B4B2610161 /* Pods-TripsTrackerApp-TripsTrackerAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -608,13 +848,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		B79199E528ABD0760031AD35 /* TripsTrackerApp.xcdatamodeld */ = {
+		B79199E528ABD0760031AD35 /* TripTrackSaveModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				B79199E628ABD0760031AD35 /* TripsTrackerApp.xcdatamodel */,
 			);
 			currentVersion = B79199E628ABD0760031AD35 /* TripsTrackerApp.xcdatamodel */;
-			path = TripsTrackerApp.xcdatamodeld;
+			path = TripTrackSaveModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
